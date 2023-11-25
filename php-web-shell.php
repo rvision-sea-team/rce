@@ -13,7 +13,7 @@
     
     <!-- HTML Form for inputting desired command -->
     <form id="execute_form" autocomplete="off">
-        <b>Command</b><input type="text" name="id" id="id" autofocus="autofocus" style="width: 500px" />
+        <b>Command</b><input type="text" name="field" id="field" autofocus="autofocus" style="width: 500px" />
         <input type="submit" value="Execute" />
     </form>
     
